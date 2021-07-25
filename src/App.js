@@ -24,9 +24,3 @@ function App() {
 }
 
 export default App;
-
-class Board extends React.Component {
-    renderSquare(i) {
-        return <Square value={i}/>;
-    }
-}
